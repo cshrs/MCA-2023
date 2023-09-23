@@ -2,7 +2,7 @@
 \[Enter your responses to Week 1, tasks 2 and 3 here\]
 
 # Week 1
-theme: Minecraft - Volume Alpha and Beta by C418
+## ** Theme: Minecraft - Volume Alpha and Beta by C418 **
 
 'Based on your own experience, what do you think are some challenges to working with music and music-related data (perhaps related to access, curation, distribution, etc.)? How does your selected theme display some of these challenges? Describe the current manifestations of data relating to your selected theme, discussing how it is presently curated (collected and gathered) and how it is presented, described, and analysed.'
 
@@ -20,7 +20,7 @@ The Minecraft - Volume Alpha and Beta are available anywhere you might find trad
 
 >> "Music tracks can play at various points during gameplay. Some types of music are triggered by events, while others play randomly while certain criteria are met. The song "Alpha" always plays instantly during the credits, and the song "Boss" always plays instantly while the player is in the End if the ender dragon is undefeated or resummoned. Both of these tracks start playing in place of any already playing music. If the player is in the End and the ender dragon has been defeated, the normal End track plays 5 to 20 minutes after any currently playing tracks are finished.
 >>
->>If the player is underwater in an ocean or river biome, random underwater tracks play randomly 10 to 20 minutes after any currently playing tracks are finished.[1]
+>>If the player is underwater in an ocean or river biome, random underwater tracks play randomly 10 to 20 minutes after any currently playing tracks are finished.
 >>
 >> If none of the previous criteria are met, but the player is in the Nether, a random general Nether track or a Nether biome-specific track plays, except warped forests, which don't have any music. If the player is not in the Nether and is currently in Creative mode, a random track plays (Creative only on Bedrock). If the player is not in Creative but is currently playing (i.e., not on the menu screen), a random general track plays. These tracks all play 10 to 20 minutes after any currently playing tracks are finished.
 >>
