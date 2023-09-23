@@ -15,6 +15,7 @@ theme: Minecraft - Volume Alpha and Beta by C418
 
 
 ### Describe the current manifestations of data relating to your selected theme, discussing how it is presently curated (collected and gathered) and how it is presented, described, and analysed.'
+
 - The Minecraft - Volume Alpha and Beta are available anywhere you might find traditional music, such as physical copies (CDs / Vinyl), however it is also a video game OST: and is therefore presented within the video game, the music changes based on location (or dimension even) here is the explanation from the Minecraft Wiki:
 
   "Music tracks can play at various points during gameplay. Some types of music are triggered by events, while others play randomly while certain criteria are met. The song "Alpha" always plays instantly during the credits, and the song "Boss" always plays instantly while the player is in the End if the ender dragon is undefeated or resummoned. Both of these tracks start playing in place of any already playing music. If the player is in the End and the ender dragon has been defeated, the normal End track plays 5 to 20 minutes after any currently playing tracks are finished.
