@@ -29,4 +29,7 @@ The Minecraft - Volume Alpha and Beta are available anywhere you might find trad
 
 The intention of the soundtrack is to compliment the main form of media; the game itself, therefore it is easy to overlook the impact the music has on the overall experience. When in reality the soundtrack is incredibly important for many of the games players. 
 
+# Week 2
 
+### Discussion: The aspects of the score that were not transcribed properly by the OMR engine
+- (Wet Hands - C418.mscz)
