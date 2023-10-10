@@ -32,4 +32,9 @@ The intention of the soundtrack is to compliment the main form of media; the gam
 # Week 2
 
 ### Discussion: The aspects of the score that were not transcribed properly by the OMR engine
-- (Wet Hands - C418.mscz)
+_[Wet Hands - C418.mscz](https://github.com/cshrs/MCA-2023/blob/master/Wet%20Hands%20-%20C418.mscz)_
+- I managed to track down some free sheet music for the song 'Wet Hands' by C418 off the Minecraft - Volume Alpha album and Minecraft OST.
+- The scan I found (https://sheetmusic-free.com/download/18001/), is very high definition which resulted in it being very readable by the OMR engine. This meant that when it was imported into the Musescore software, it managed to read the score very well. There were limited errors (mainly slurs and a couple of notes misplaced). After using this software and playing around with it, I've identified some of the following factors that might impact the quality of the import:
+>> - The quality of the pdf: if the pdf is high quality the OMR engine will be able to read it more easily
+>> - The complexity of the music: If the piece of music is simple, the OMR engine will be able to identify the notes more easily, and vice-versa.
+>> - THe length: Shorter music means that there is less room for error.
