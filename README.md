@@ -38,3 +38,7 @@ _[Wet Hands - C418.mscz](https://github.com/cshrs/MCA-2023/blob/master/Wet%20Han
 >> - The quality of the pdf: if the pdf is high quality the OMR engine will be able to read it more easily
 >> - The complexity of the music: If the piece of music is simple, the OMR engine will be able to identify the notes more easily, and vice-versa.
 >> - THe length: Shorter music means that there is less room for error.
+
+# Week 3 
+
+[LINK TO VEROVIO MEI](cshrs.github.io/MCA-2023/verovio.html)
