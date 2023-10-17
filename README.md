@@ -41,4 +41,4 @@ _[Wet Hands - C418.mscz](https://github.com/cshrs/MCA-2023/blob/master/Wet%20Han
 
 # Week 3 
 
-[LINK TO VEROVIO MEI](cshrs.github.io/MCA-2023/verovio.html)
+[LINK TO VEROVIO MEI]([cshrs.github.io/MCA-2023/verovio.html](https://cshrs.github.io/MCA-2023/verovio.html)https://cshrs.github.io/MCA-2023/verovio.html)
