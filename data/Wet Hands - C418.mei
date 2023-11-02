@@ -1,11 +1,12 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead xml:id="m1djy4p5">
       <fileDesc xml:id="fbkxn2j">
          <titleStmt xml:id="ttq73ou">
-            <title />
+            <title>Wet Hands</title>
+            <composer> C418 </composer>            
             <respStmt />
          </titleStmt>
          <pubStmt xml:id="p1rit4bp">
@@ -20,6 +21,14 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <workList> 
+      <work> 
+         <title>Wet Hands</title>
+             <composer xml:id="composer1">C418</composer>
+             <key>F</key>
+             <tempo>72</tempo>
+         </work>
+      </workList>
    </meiHead>
    <music>
       <body>
