@@ -61,9 +61,158 @@ Licence URI: http://www.os-templates.com/template-terms
       </p>
       </div>
   <!-- ############################# -->
+  
   <script src="js/CETEI.js"></script>
+  <style> 
+  mei-titlestmt > mei-title {
+	font-size: 24px;
+	font-family: Arial;
+  	text-transform: capitalize;
+    	display: block;
+    }
+	  
+  mei-titlestmt > mei-resp {
+	font-weight: bold;
+	display: block;
+   	margin-top: 30px;
+    }
+	  
+mei-titlestmt > mei-respStmt > mei-name::after  {
+	content: "\a ";
+	white-space: pre;
+}
+	  
+ mei-titlestmt > mei-respStmt > mei-availability::before {
+	content: "Copyright Information: ";
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 16px;
+	  }
+	  
+ mei-titlestmt > mei-respStmt > mei-availability {
+	 font-size: 16px;
+	}
+	  
+  mei-titlestmt > mei-arranger {
+	display: block;
+    }
+	  
+mei-pubstmt > mei-publisher {
+	display: none;
+	font-weight: bold;
+	  }
+	  
+mei-pubstmt > mei-publisher::before {
+	font-weight: bold;
+	  }
+	  
+mei-pubstmt > mei-geogName::before {
+	font-weight: bold;
+	  }
+	  
+ mei-worklist > mei-work > mei-title {
+	 font-size: 16px;
+	  }
+	 
+ mei-worklist > mei-work > mei-title::before {
+	content: "Title: ";
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 16px;
+	  }
+	  
+mei-worklist > mei-work > mei-title::after {
+	content: "\a ";
+	white-space: pre;
+	  }
+	  
+mei-worklist > mei-work > mei-composer {
+	 font-size: 16px;
+	  }
+	  
+ mei-worklist > mei-work > mei-composer::before {
+	content: "Artist: ";
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 16px;
+	  }
+	  
+mei-worklist > mei-work > mei-composer::after {
+	content: "\a ";
+	white-space: pre;
+	  }
+	  
+ mei-worklist > mei-work > mei-arranger {
+	 font-size: 16px;
+	  }
+	  
+ mei-worklist > mei-work > mei-arranger::before {
+	content: "Arranger: ";
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 16px;
+	  }
+	  
+mei-worklist > mei-work > mei-arranger::after {
+	content: "\a ";
+	white-space: pre;
+	  }
+	  
+ mei-worklist > mei-work > mei-key {
+	 font-size: 16px;
+	  }
+	  
+ mei-worklist > mei-work  > mei-key::before {
+	content: "Key: ";
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 16px;
+	  }
+	  
+mei-worklist > mei-work > mei-key::after {
+	content: "\a ";
+	white-space: pre;
+	  }
+	  
+ mei-worklist > mei-work > mei-tempo {
+	 font-size: 16px;
+	  }
+	  
+ mei-worklist > mei-work > mei-tempo::before {
+	content: "Tempo:";
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 16px;
+	  }
+	  
+mei-worklist > mei-work > mei-tempo::after {
+	content: "\a ";
+	white-space: pre;
+	  }
+	  
+mei-worklist > mei-work > mei-perfMedium > mei-perfResList > mei-perfRes {
+	 font-size: 16px;
+	  }
+	  
+mei-worklist > mei-work > mei-perfMedium > mei-perfResList > mei-perfRes::before {
+	content: "Instrumentation: ";
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 16px;
+	  }
+	  
+	  
+ mei-worklist > mei-work > mei-perfMedium > mei-perfResList > mei-perfRes::after {
+	content: "\a ";
+	white-space: pre;
+	  }
+	  
+	  
+  </style>
 </head>
 <body>
+	
+	
   <div id="MEImeta"></div>
   <div id="app">Verovio is loading...</div>
   <script type="module">
@@ -77,7 +226,7 @@ Licence URI: http://www.os-templates.com/template-terms
       // A MusicXML file
       var file = 'wethandsw7.mei';
       // A MEI file
-      //var file = 'https://www.verovio.org/editor/index.html;
+      //var file = 'https://www.verovio.org/editor/brahms.mei';
       const app = new Verovio.App(document.getElementById("app"), options);
       fetch(file)
           .then(function(response) {
@@ -87,11 +236,10 @@ Licence URI: http://www.os-templates.com/template-terms
               app.loadData(text);
           });
   </script>
-
-   <script>
+  <script>
     // Get, parse, and show TEI data
     var CETEIcean = new CETEI()
-    CETEIcean.getHTML5("Wet Hands - C418.musicxml", function(data) {
+    CETEIcean.getHTML5("data/example.xml", function(data) {
       document.getElementById("TEI").appendChild(data)
     })
     // Get, parse and show MEI header data
@@ -122,6 +270,12 @@ Licence URI: http://www.os-templates.com/template-terms
         })
     })
   </script>
+
+
+
+
+
+
 
   <div class="clear"></div>
 </div>
