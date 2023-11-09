@@ -97,7 +97,7 @@ Licence URI: http://www.os-templates.com/template-terms
               mei: "http://www.music-encoding.org/ns/mei"
             }
           })
-          CETEI4MEI.getHTML5("data/example.mei", function(data) {
+          CETEI4MEI.getHTML5("data/wethandsw7.mei", function(data) {
             // get header
             var meiHead = data.querySelector('mei-meiHead')
             document.getElementById("MEImeta").appendChild(meiHead)
@@ -111,7 +111,7 @@ Licence URI: http://www.os-templates.com/template-terms
               scale: 50,
               adjustPageHeight: true
           })
-          fetch("data/example.mei").then(function( response ) {
+          fetch("data/wethandsw7.mei").then(function( response ) {
               response.text().then(function( data ) {
                 var svg = vrvToolkit.renderData(data, {})
                 document.getElementById('MEI').innerHTML = svg
