@@ -1,81 +1,183 @@
-@charset "utf-8";
-/*
-Template Name: Realistic
-Author: <a href="http://www.os-templates.com/">OS Templates</a>
-Author URI: http://www.os-templates.com/
-Licence: Free to use under our free template licence terms
-Licence URI: http://www.os-templates.com/template-terms
-File: Layout CSS
-*/
+/* ----------------------------------------------Navigation bar------------------------------------- */
 
-@import url("navi.css");
 
-html{overflow-y:scroll;}
-body{margin:0; padding:0; font-size:14px; font-family:Georgia, "Times New Roman", Times, serif; color:#787878; background-color:#E0E0E0;}
+/* General Wrapper Styles */
+.wrapper {
+    width: 100%;
+    text-align: center; /* Centers the navigation */
+    margin: 0 auto;
+    padding: 10px 0;
+    text-transform: uppercase;
+  }
+  
+  .wrapper2 {
+    display: flex; /* Use flexbox for easy alignment */
+    justify-content: center; /* Center children horizontally */
+    align-items: center; /* Center children vertically */
+    min-height: 100vh; /* At least the full height of the viewport */
+    margin: 0;
+    padding: 0;
+    opacity: 1;
+    transition: opacity 0.5s ease-out;
+  }
 
-.justify{text-align:justify;}
-.bold{font-weight:bold;}
-.center{text-align:center;}
-.right{text-align:right;}
-.nostart{margin:0; padding:0; list-style-type:none;}
+/* Navigation Styles */
+#topnav {
+  display: inline-block;
+  margin: 0 auto; /* Centers the navigation within the wrapper */
+}
 
-.clear{clear:both;}
-br.clear{clear:both; margin-top:-15px;}
+/* Unordered List Styles for Navigation */
+.nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
-a{outline:none; text-decoration:none; color:#A3443E; background-color:#E0E0E0;}
+/* List Item Styles */
+.nav li {
+  display: inline-block; /* Aligns the list items in a row */
+  margin-right: -4px; /* Removes the gap between inline-block elements */
+}
 
-.fl_left, .imgl{float:left;}
-.fl_right, .imgr{float:right;}
+/* Link Styles */
+.nav a {
+  text-decoration: bold;
+  font-size: 18px;
+  font-family: 'Work Sans' sans-serif;
+  padding: 10px 15px; /* Adds padding to the links for a larger click area */
+  display: block;
+  color: #36393B; /* Sets the text color */
+  background-color: #D5AC4E; /* Sets the background color */
+  transition: background-color 0.3s; /* Adds a transition effect on hover */
+}
 
-img{display:block; margin:0; padding:0; border:none;}
-.imgl, .imgr{border:1px solid #C7C5C8; padding:5px;}
-.imgl{margin:0 8px 8px 0; clear:left;}
-.imgr{margin:0 0 8px 8px; clear:right;}
+/* Hover and Active States */
+.nav a:hover,
+.nav li.active a {
+  background-color: #9F803A; /* Darkens the link on hover */
+}
 
-/* ----------------------------------------------Wrapper------------------------------------- */
+/* Last Item Style */
+.nav .last {
+  margin-right: 0; /* Removes margin on the last item */
+}
 
-div.wrapper{display:block; margin:0 0 1px 0; text-align:left;}
-div.wrapper h1 {margin:0 0 0px 0; padding:0; font-size:NA; font-weight:normal; line-height:normal;}
-div.wrapper h2 {margin:0 0 0px 0; padding:0; font-size:NA; font-weight:bold; line-height:normal; color:#2A2828}
-div.wrapper h3 {margin:0 0 0px 0; padding:0; font-size:NA; font-weight:bold; line-height:normal; color:#4A5E60}
-div.wrapper h4, div.wrapper h5, div.wrapper h6{margin:0 0 0px 0; padding:0; font-size:NA; font-weight:bold; line-height:normal;}
+/* Clearfix */
+.clear {
+  clear: both;
+}
 
-/* ----------------------------------------------Generalise------------------------------------- */
+/* ----------------------------------------------Body formatting------------------------------------- */
 
-#header, #topbar, #topnav, #breadcrumb, .container, #footer, #copyright{display:block; position:relative; width:960px; margin:0 auto;}
 
-/* ----------------------------------------------Header------------------------------------- */
 
-#header{text-align:center; text-transform:uppercase;}
-#header h1, #header p{margin:0; padding: 20px;; list-style:none; line-height:normal;}
-#header h1 a{font-size:100px; color:#2A2828; background-color:#E0E0E0;}
-#header p{margin-top:-20px; font-size:20px; color:#4A4A4A; background-color:#E0E0E0;}
+/* General Wrapper Styles */
+.body {
+  width: 100%;
+  margin: 0 auto;
+  padding: 100px 20px;
+}
 
-/* ----------------------------------------------Content------------------------------------- */
+/* ----------------------------------------------Image formatting------------------------------------- */
 
-.container{padding:10px 0; border-top:1px solid #999999; border-bottom:1px solid #999999;}
-.whitebox{padding:50px; color:#999999; background-color:#FFFFFF;}
-.whitebox a{color:#A3443E; background-color:#FFFFFF;}
-.content{display:block; float:left; width:600px;}
 
-/* ----------------------------------------------Column------------------------------------- */
+.image-list {
+  list-style-type: none; /* Removes the default list styling */
+  padding: 0; /* Removes the default padding */
+  margin: 0; /* Removes the default margin */
+}
 
-.column{display:block; float:right; width:270px;}
-.column .holder, .column #featured{display:block; width:270px; margin-bottom:20px;}
-.column .holder h2.title{display:block; width:100%; height:65px; margin:0; padding:15px 0 0 0; font-size:20px; line-height:normal; border-bottom:1px dotted #999999;}
-.column .holder h2.title img{float:left; margin:-15px 8px 0 0; padding:5px; border:1px solid #999999;}
-.column div.imgholder{display:block; width:260px; margin:0 0 10px 0; padding:4px; border:1px solid #999999;}
-.column .holder p.readmore{display:block; width:100%; font-weight:bold; text-align:right; line-height:normal;}
+.image-list li {
+  display: inline-block; /* Displays list items inline */
+  margin-right: 10px; /* Adds some space between the images */
+}
 
-/* ----------------------------------------------Footer------------------------------------- */
+.image-list img {
+  width: auto; /* Maintains the original aspect ratio */
+  height: 200px; /* Sets a uniform height for all images */
+  vertical-align: middle; /* Aligns images vertically in line */
+}
 
-#footer{padding:20px 0; border-top:1px solid #999999; border-bottom:1px solid #999999;}
-#footer a{color:#787878; background-color:#E0E0E0;}
-#footer h2, #footer p, #footer ul, #footer a{margin:0; padding:0; font-weight:normal; list-style:none; line-height:normal;}
-#footer h2{color:#999999; background-color:#E0E0E0; font-size:16px; font-weight:normal; margin-bottom:10px; padding-bottom:6px; border-bottom:1px dotted #585858;}
-#footer .latestgallery{display:block; float:left; width:420px; margin:0; padding:0;}
-#footer .latestgallery li{display:block; float:left; width:80px; height:80px; margin:15px 17px 0 0; padding:5px; color:#333333; background-color:#FFFFFF; border:1px solid #B4B4B4;}
-#footer .footbox{display:block; float:left; width:220px; margin:0 0 0 50px; padding:0;}
-#footer .footbox li{margin:22px 0 0 0;}
-#footer div.last, #footer .latestgallery li.last{margin-right:0;}
-#footer .footbox li.last{margin-bottom:0;}
+/* ----------------------------------------------Various website styles------------------------------------- */
+
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: normal;
+    color: #36393B;
+}
+
+/* Set the background colour */
+body {
+    background-color: #ECE9E0;
+}
+
+p {
+  color: #36393B;
+}
+
+body {
+ font-family: 'Work Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+ font-family: 'Crimson Text', serif;
+ color: #13293D
+}
+
+.special-h1 {
+    font-weight: bold;
+    color: #13293D
+    font-size: 40px;
+    text-align: center;
+}
+
+.special-h2 {
+  font-family: 'Crimson Text', serif;
+  margin-bottom: 80px; /* Adjust the value as needed to control the spacing */
+  color: white
+  
+
+}
+
+.link-h2 {
+  color: #D5AC4E; /* Remove underlines */
+  font-weight: bold;
+  text-align: center;
+
+}
+
+/* Increase spacing for <li> bullet points */
+li {
+  margin-left: 20px; /* Adjust the value as needed to control the spacing */
+  list-style: disc outside; /* Add bullet points outside the list item */
+  margin-bottom: 10px; /* Adjust the value as needed to control the spacing */
+}
+
+
+/* Remove underlines and set the color */
+   a {
+        text-decoration: none; 
+        color: #D5AC4E; 
+        font-weight: normal;
+      }
+
+
+      table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    table, th, td {
+        border: 1px solid black;
+    }
+
+    th, td {
+        padding: 8px;
+        text-align: left;
+    }
+
+
+
+    
