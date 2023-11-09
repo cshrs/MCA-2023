@@ -35,80 +35,8 @@ img{display:block; margin:0; padding:0; border:none;}
 .imgr{margin:0 0 8px 8px; clear:right;}
 
 /* ----------------------------------------------Wrapper------------------------------------- */
-/* ----------------------------------------------Navigation bar------------------------------------- */
 
-
-/* General Wrapper Styles */
-.wrapper {
-    width: 100%;
-    text-align: center; /* Centers the navigation */
-    margin: 0 auto;
-    padding: 10px 0;
-    text-transform: uppercase;
-  }
-  
-  .wrapper2 {
-    display: flex; /* Use flexbox for easy alignment */
-    justify-content: center; /* Center children horizontally */
-    align-items: center; /* Center children vertically */
-    min-height: 100vh; /* At least the full height of the viewport */
-    margin: 0;
-    padding: 0;
-    opacity: 1;
-    transition: opacity 0.5s ease-out;
-  }
-
-/* Navigation Styles */
-#topnav {
-  display: inline-block;
-  margin: 0 auto; /* Centers the navigation within the wrapper */
-}
-
-/* Unordered List Styles for Navigation */
-.nav {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-/* List Item Styles */
-.nav li {
-  display: inline-block; /* Aligns the list items in a row */
-  margin-right: -4px; /* Removes the gap between inline-block elements */
-}
-
-/* Link Styles */
-.nav a {
-  text-decoration: bold;
-  font-size: 18px;
-  font-family: 'Work Sans' sans-serif;
-  padding: 10px 15px; /* Adds padding to the links for a larger click area */
-  display: block;
-  color: #36393B; /* Sets the text color */
-  background-color: #D5AC4E; /* Sets the background color */
-  transition: background-color 0.3s; /* Adds a transition effect on hover */
-}
-
-/* Hover and Active States */
-.nav a:hover,
-.nav li.active a {
-  background-color: #9F803A; /* Darkens the link on hover */
-}
-
-/* Last Item Style */
-.nav .last {
-  margin-right: 0; /* Removes margin on the last item */
-}
-
-/* Clearfix */
-.clear {
-  clear: both;
-}
-
-
-
-
-/*div.wrapper{display:block; margin:0 0 1px 0; text-align:left;}
+div.wrapper{display:block; margin:0 0 1px 0; text-align:left;}
 div.wrapper h1 {margin:0 0 0px 0; padding:0; font-size:NA; font-weight:normal; line-height:normal;}
 div.wrapper h2 {margin:0 0 0px 0; padding:0; font-size:NA; font-weight:bold; line-height:normal; color:#2A2828}
 div.wrapper h3 {margin:0 0 0px 0; padding:0; font-size:NA; font-weight:bold; line-height:normal; color:#4A5E60}
