@@ -9,8 +9,6 @@ File: Layout CSS
 */
 
 @import url("navi.css");
-@import url("homepage.css");
-@import url("portfolio.css");
 
 html{overflow-y:scroll;}
 body{margin:0; padding:0; font-size:14px; font-family:Georgia, "Times New Roman", Times, serif; color:#787878; background-color:#E0E0E0;}
