@@ -131,12 +131,12 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
  font-family: 'Crimson Text', serif;
- color: #2D3142
+ color: #D74411
 }
 
 .special-h1 {
     font-weight: bold;
-    color: #2D3142
+    color: #D74411
     font-size: 40px;
     text-align: center;
 }
@@ -144,7 +144,7 @@ h1, h2, h3, h4, h5, h6 {
 .special-h2 {
   font-family: 'Crimson Text', serif;
   margin-bottom: 80px; /* Adjust the value as needed to control the spacing */
-  color: #BE9C61
+  color: #D74411
   
 
 }
@@ -168,7 +168,7 @@ li {
    a {
         text-decoration: none; 
         color: #59B292; 
-        font-weight: bold;
+        font-style: italic;
       }
 
 
