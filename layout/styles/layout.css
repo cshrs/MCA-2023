@@ -131,12 +131,13 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
  font-family: 'Crimson Text', serif;
- color: #3B3469
+ color: #054A29
 }
 
 .special-h1 {
-    font-weight: bold;
-    color: #D74411
+    font-weight: bolder;
+    font-family: 'Crimson Text', serif;
+    color: #054A29;
     font-size: 40px;
     text-align: center;
 }
