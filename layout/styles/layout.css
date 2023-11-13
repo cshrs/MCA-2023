@@ -113,16 +113,16 @@
 body {
     font-family: 'Work Sans', sans-serif;
     font-weight: normal;
-    color: #36393B;
+    color: #2D3142;
 }
 
 /* Set the background colour */
 body {
-    background-color: #ECE9E0;
+    background-color: #F1EEE6;
 }
 
 p {
-  color: #36393B;
+  color: #2D3142;
 }
 
 body {
@@ -131,12 +131,12 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
  font-family: 'Crimson Text', serif;
- color: #13293D
+ color: #2D3142
 }
 
 .special-h1 {
     font-weight: bold;
-    color: #13293D
+    color: #2D3142
     font-size: 40px;
     text-align: center;
 }
@@ -144,7 +144,7 @@ h1, h2, h3, h4, h5, h6 {
 .special-h2 {
   font-family: 'Crimson Text', serif;
   margin-bottom: 80px; /* Adjust the value as needed to control the spacing */
-  color: white
+  color: #BE9C61
   
 
 }
@@ -167,8 +167,8 @@ li {
 /* Remove underlines and set the color */
    a {
         text-decoration: none; 
-        color: #D5AC4E; 
-        font-weight: normal;
+        color: #59B292; 
+        font-weight: bold;
       }
 
 
