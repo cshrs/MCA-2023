@@ -1,31 +1,33 @@
-/* ----------------------------------------------Navigation bar------------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&display=swap');
 
 
-/* General Wrapper Styles */
+/* Navigation bar */
 .wrapper {
     width: 100%;
-    text-align: center; /* Centers the navigation */
+    text-align: center;
     margin: 0 auto;
-    padding: 10px 0;
+    padding: 5px 0;
     text-transform: uppercase;
   }
   
   .wrapper2 {
-    display: flex; /* Use flexbox for easy alignment */
-    justify-content: center; /* Center children horizontally */
-    align-items: center; /* Center children vertically */
-    min-height: 100vh; /* At least the full height of the viewport */
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    min-height: 100vh; 
     margin: 0;
     padding: 0;
     opacity: 1;
     transition: opacity 0.5s ease-out;
+    text-align: center;
+
   }
 
 /* Navigation Styles */
 #topnav {
   display: inline-block;
-  margin: 0 auto; /* Centers the navigation within the wrapper */
-}
+  margin: 0 auto;
 
 /* Unordered List Styles for Navigation */
 .nav {
@@ -43,19 +45,19 @@
 /* Link Styles */
 .nav a {
   text-decoration: bold;
-  font-size: 18px;
+  font-size: 30px;
   font-family: 'Work Sans' sans-serif;
   padding: 10px 15px; /* Adds padding to the links for a larger click area */
   display: block;
-  color: #36393B; /* Sets the text color */
-  background-color: #D5AC4E; /* Sets the background color */
+  color: #ECE9E0; /* Sets the text color */
+  background-color: #008080; /* Sets the background color */
   transition: background-color 0.3s; /* Adds a transition effect on hover */
 }
 
 /* Hover and Active States */
 .nav a:hover,
 .nav li.active a {
-  background-color: #9F803A; /* Darkens the link on hover */
+  background-color: #004949; /* Darkens the link on hover */
 }
 
 /* Last Item Style */
@@ -69,7 +71,11 @@
 }
 
 /* ----------------------------------------------Body formatting------------------------------------- */
-
+.container {
+  width: 80%; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 5px 0px; /* Add padding as needed to create space around the content */
+}
 
 
 /* General Wrapper Styles */
@@ -79,16 +85,18 @@
   padding: 100px 20px;
 }
 
+/* ----------------------------------------------Video formatting------------------------------------- */
+ .video-container {
+  margin-bottom: 30px; /* Margin for video */
+}
 
-/* ----------------------------------------------Container------------------------------------- */
 
-.container {
-  width: 80%; /* Adjust the width as needed */
-  margin: 0 auto; /* Center the container horizontally */
-  padding: 20px; /* Add padding as needed to create space around the content */
+video {
+  display: block; /* Ensure the video is treated as a block element */
 }
 
 /* ----------------------------------------------Image formatting------------------------------------- */
+
 
 .image-list {
   list-style-type: none; /* Removes the default list styling */
@@ -107,22 +115,60 @@
   vertical-align: middle; /* Aligns images vertically in line */
 }
 
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* ----------------------------------------------Scroll to top: With help from w3 schools, chatgpt------------------------------------- */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Scroll to top button styles */
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #008080;
+    color: #ECE9E0;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: none;
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* #D5AC4E */
+
+.scroll-to-top:hover {
+    background-color: #004949;
+}
+
+.scroll-to-top.show {
+    opacity: 1;
+}
+
+
 /* ----------------------------------------------Various website styles------------------------------------- */
 
 
 body {
     font-family: 'Work Sans', sans-serif;
     font-weight: normal;
-    color: #2D3142;
+    color: #FFE3E3;
+    font-size: 20px;
 }
 
 /* Set the background colour */
 body {
-    background-color: #F1EEE6;
+    background-color: #0C090D;
 }
 
 p {
-  color: #2D3142;
+  color: #FFE3E3;
+  font-size: 20px;
 }
 
 body {
@@ -130,35 +176,37 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
- font-family: 'Crimson Text', serif;
- color: #2D3142
+  font-family: 'Noto Sans', sans-serif;
+  color: #FF858D
 }
 
 .special-h1 {
-    font-weight: bolder;
-    font-family: 'Crimson Text', serif;
-    color: #2D3142;
+    font-weight: bold;
+    color: #FF858D
     font-size: 40px;
     text-align: center;
+    padding: 10px; 
+
 }
 
 .special-h2 {
-  font-family: 'Crimson Text', serif;
-  margin-bottom: 80px; /* Adjust the value as needed to control the spacing */
-  color: #D74411
+  font-family: 'League Spartan', sans-serif;
+  margin-bottom: 80px; 
+  color: white
   
 
 }
 
-.special-h3 {
-  font-weight: bolder;
-  font-family: 'Crimson Text', serif;
-  color: #2D3142;
-  font-size: 40px;
-  text-align: center;}
+.index-h2 {
+text-align: center;
+font-family: 'Noto Sans', sans-serif;
+color: #008080;
+padding: -10px; 
+
+}
 
 .link-h2 {
-  color: #D5AC4E; /* Remove underlines */
+  color: #FF858D; /* Remove underlines */
   font-weight: bold;
   text-align: center;
 
@@ -169,14 +217,19 @@ li {
   margin-left: 20px; /* Adjust the value as needed to control the spacing */
   list-style: disc outside; /* Add bullet points outside the list item */
   margin-bottom: 10px; /* Adjust the value as needed to control the spacing */
+  font-size: 20px;
 }
 
+ul { 
+font-size: 20px;
+
+}
 
 /* Remove underlines and set the color */
    a {
         text-decoration: none; 
-        color: #59B292; 
-        font-weight: bold;
+        color: #FF858D; 
+        font-weight: normal;
       }
 
 
