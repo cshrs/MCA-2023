@@ -177,12 +177,12 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Noto Sans', sans-serif;
-  color: #FF858D
+  color: #FF858D;
 }
 
 .special-h1 {
     font-weight: bold;
-    color: #FF858D
+    color: #FF858D;
     font-size: 40px;
     text-align: center;
     padding: 10px; 
@@ -192,7 +192,7 @@ h1, h2, h3, h4, h5, h6 {
 .special-h2 {
   font-family: 'League Spartan', sans-serif;
   margin-bottom: 80px; 
-  color: white
+  color: white;
   
 
 }
