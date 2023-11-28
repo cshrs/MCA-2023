@@ -50,17 +50,17 @@
     text-decoration: bold;
     font-size: 18px;
     font-family: 'Work Sans', sans-serif;
-    padding: 10px 15px;
+    padding: 0px 15px 0px;
     display: block;
     color: #FFE3E3;
-    background-color: #0C090D;
+    background-color: #FF858D;
     transition: background-color 0.3s;
 }
 
 /* Hover and Active States */
 .nav a:hover,
 .nav li.active a {
-    background-color: #FF858D;
+    background-color: #0C090D;
 }
 
 /* Last Item Style */
@@ -135,10 +135,11 @@ html {
     cursor: pointer;
     display: none;
     transition: opacity 0.5s ease-in-out;
+    font-family: 'Nanum Gothic Coding', monospace;
 }
 
 .scroll-to-top:hover {
-    background-color: #FF858D;
+    background-color: #0C090D;
 }
 
 .scroll-to-top.show {
