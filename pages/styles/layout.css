@@ -54,15 +54,15 @@
   font-family: 'Work Sans' sans-serif;
   padding: 10px 15px; /* Adds padding to the links for a larger click area */
   display: block;
-  color: #ECE9E0; /* Sets the text color */
-  background-color: #008080; /* Sets the background color */
+  color: #FFE3E3; /* Sets the text color */
+  background-color: #0C090D; /* Sets the background color */
   transition: background-color 0.3s; /* Adds a transition effect on hover */
 }
 
 /* Hover and Active States */
 .nav a:hover,
 .nav li.active a {
-  background-color: #004949; /* Darkens the link on hover */
+  background-color: #FF858D; 
 }
 
 /* Last Item Style */
@@ -137,18 +137,17 @@ html {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #008080;
-    color: #ECE9E0;
+    background-color: #FF858D;
+    color: #0C090D;
     padding: 10px 20px;
     cursor: pointer;
     display: none;
     transition: opacity 0.5s ease-in-out;
 }
 
-/* #D5AC4E */
 
 .scroll-to-top:hover {
-    background-color: #004949;
+    background-color: #FF858D;
 }
 
 .scroll-to-top.show {
@@ -162,17 +161,17 @@ html {
 body {
     font-family: 'Work Sans', sans-serif;
     font-weight: normal;
-    color: #36393B;
+    color: #FFE3E3;
     font-size: 20px;
 }
 
 /* Set the background colour */
 body {
-    background-color: #ECE9E0;
+    background-color: #0C090D;
 }
 
 p {
-  color: #36393B;
+  color: #FFE3E3;
   font-size: 20px;
 }
 
@@ -182,12 +181,12 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Noto Sans', sans-serif;
-  color: #008080
+  color: #FF858D;
 }
 
 .special-h1 {
     font-weight: bold;
-    color: #13293D
+    color: #FF858D;
     font-size: 40px;
     text-align: center;
     padding: 10px; 
@@ -197,7 +196,7 @@ h1, h2, h3, h4, h5, h6 {
 .special-h2 {
   font-family: 'League Spartan', sans-serif;
   margin-bottom: 80px; 
-  color: white
+  color: #FF858D;
   
 
 }
@@ -205,13 +204,13 @@ h1, h2, h3, h4, h5, h6 {
 .index-h2 {
 text-align: center;
 font-family: 'Noto Sans', sans-serif;
-color: #008080;
+color: #FF858D;
 padding: -10px; 
 
 }
 
 .link-h2 {
-  color: #40a877; /* Remove underlines */
+  color: #FF858D; /* Remove underlines */
   font-weight: bold;
   text-align: center;
 
@@ -233,7 +232,7 @@ font-size: 20px;
 /* Remove underlines and set the color */
    a {
         text-decoration: none; 
-        color: #40a877; 
+        color: #FF858D; 
         font-weight: normal;
       }
 
@@ -244,7 +243,7 @@ font-size: 20px;
     }
 
     table, th, td {
-        border: 1px solid black;
+        border: 1px solid #FFE3E3;
     }
 
     th, td {
