@@ -1,6 +1,6 @@
 /* -------------------------------------- Font Imports -------------------------------------- */
 
-@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
 
 /* -------------------------------------- Navigation Bar -------------------------------------- */
@@ -165,8 +165,8 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'DotGothic16', sans-serif;
-    color: #FF858D;
+  font-family: 'Montserrat', sans-serif;
+  color: #FF858D;
 }
 
 .special-h1 {
@@ -178,14 +178,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .special-h2 {
-    font-family: 'League Spartan', sans-serif;
+  font-family: 'Montserrat', sans-serif;
     margin-bottom: 80px;
     color: #FF858D;
 }
 
 .index-h2 {
     text-align: center;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #FF858D;
     padding: -10px;
 }
