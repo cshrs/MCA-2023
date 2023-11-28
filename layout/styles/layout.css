@@ -1,72 +1,52 @@
-/* ----------------------------------------------Navigation bar------------------------------------- */
-
-
-/* General Wrapper Styles */
-.wrapper {
-    width: 100%;
-    text-align: center; /* Centers the navigation */
-    margin: 0 auto;
-    padding: 10px 0;
-    text-transform: uppercase;
-  }
-  
-  .wrapper2 {
-    display: flex; /* Use flexbox for easy alignment */
-    justify-content: center; /* Center children horizontally */
-    align-items: center; /* Center children vertically */
-    min-height: 100vh; /* At least the full height of the viewport */
-    margin: 0;
-    padding: 0;
-    opacity: 1;
-    transition: opacity 0.5s ease-out;
-  }
-
-/* Navigation Styles */
-#topnav {
-  display: inline-block;
-  margin: 0 auto; /* Centers the navigation within the wrapper */
+/* Navigation bar styles */
+.wrapper2 {
+  display: flex;
+  justify-content: space-between; /* Spread the items equally */
+  align-items: center;
+  background-color: #333; /* Background color for the navigation bar */
+  padding: 10px 20px; /* Padding for the navigation bar */
 }
 
-/* Unordered List Styles for Navigation */
 .nav {
   list-style: none;
   padding: 0;
   margin: 0;
+  display: flex;
 }
 
-/* List Item Styles */
 .nav li {
-  display: inline-block; /* Aligns the list items in a row */
-  margin-right: -4px; /* Removes the gap between inline-block elements */
+  margin-right: 10px;
 }
 
-/* Link Styles */
 .nav a {
-  text-decoration: bold;
-  font-size: 18px;
-  font-family: 'Work Sans' sans-serif;
-  padding: 10px 15px; /* Adds padding to the links for a larger click area */
-  display: block;
-  color: #36393B; /* Sets the text color */
-  background-color: #D5AC4E; /* Sets the background color */
-  transition: background-color 0.3s; /* Adds a transition effect on hover */
+  text-decoration: none;
+  font-size: 16px;
+  color: #fff; /* Text color */
+  transition: color 0.3s; /* Transition effect on text color */
 }
 
-/* Hover and Active States */
 .nav a:hover,
 .nav li.active a {
-  background-color: #9F803A; /* Darkens the link on hover */
+  color: #D5AC4E; /* Text color on hover or when active */
 }
 
-/* Last Item Style */
-.nav .last {
-  margin-right: 0; /* Removes margin on the last item */
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .wrapper2 {
+    flex-direction: column; /* Stack items vertically on small screens */
+    align-items: flex-start; /* Align items to the start on small screens */
+  }
+
+  .nav {
+    margin-top: 10px; /* Add space between navigation bar and links */
+  }
+
+  .nav li {
+    margin-right: 0;
+    margin-bottom: 5px; /* Add space between list items on small screens */
+  }
 }
 
-/* Clearfix */
-.clear {
-  clear: both;
-}
 
 /* ----------------------------------------------Body formatting------------------------------------- */
 
