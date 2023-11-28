@@ -1,21 +1,25 @@
+/* ----------------------------------------------Imports------------------------------------- */
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&display=swap');
 
 
-/* Navigation bar */
+/* ----------------------------------------------Navigation bar, coded with help from w3 schools------------------------------------- */
+
+
+/* General Wrapper Styles */
 .wrapper {
     width: 100%;
-    text-align: center;
+    text-align: center; /* Centers the navigation */
     margin: 0 auto;
     padding: 5px 0;
     text-transform: uppercase;
   }
   
   .wrapper2 {
-    display: flex; 
-    justify-content: center;
-    align-items: center; 
-    min-height: 100vh; 
+    display: flex; /* Use flexbox for easy alignment */
+    justify-content: center; /* Center children horizontally */
+    align-items: center; /* Center children vertically */
+    min-height: 100vh; /* At least the full height of the viewport */
     margin: 0;
     padding: 0;
     opacity: 1;
@@ -27,7 +31,8 @@
 /* Navigation Styles */
 #topnav {
   display: inline-block;
-  margin: 0 auto;
+  margin: 0 auto; /* Centers the navigation within the wrapper */
+}
 
 /* Unordered List Styles for Navigation */
 .nav {
@@ -45,7 +50,7 @@
 /* Link Styles */
 .nav a {
   text-decoration: bold;
-  font-size: 30px;
+  font-size: 18px;
   font-family: 'Work Sans' sans-serif;
   padding: 10px 15px; /* Adds padding to the links for a larger click area */
   display: block;
@@ -157,17 +162,17 @@ html {
 body {
     font-family: 'Work Sans', sans-serif;
     font-weight: normal;
-    color: #FFE3E3;
+    color: #36393B;
     font-size: 20px;
 }
 
 /* Set the background colour */
 body {
-    background-color: #0C090D;
+    background-color: #ECE9E0;
 }
 
 p {
-  color: #FFE3E3;
+  color: #36393B;
   font-size: 20px;
 }
 
@@ -177,12 +182,12 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Noto Sans', sans-serif;
-  color: #FF858D;
+  color: #008080
 }
 
 .special-h1 {
     font-weight: bold;
-    color: #FF858D;
+    color: #13293D
     font-size: 40px;
     text-align: center;
     padding: 10px; 
@@ -192,7 +197,7 @@ h1, h2, h3, h4, h5, h6 {
 .special-h2 {
   font-family: 'League Spartan', sans-serif;
   margin-bottom: 80px; 
-  color: white;
+  color: white
   
 
 }
@@ -206,7 +211,7 @@ padding: -10px;
 }
 
 .link-h2 {
-  color: #FF858D; /* Remove underlines */
+  color: #40a877; /* Remove underlines */
   font-weight: bold;
   text-align: center;
 
@@ -228,7 +233,7 @@ font-size: 20px;
 /* Remove underlines and set the color */
    a {
         text-decoration: none; 
-        color: #FF858D; 
+        color: #40a877; 
         font-weight: normal;
       }
 
