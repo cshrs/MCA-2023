@@ -1,137 +1,130 @@
-/* ----------------------------------------------Imports------------------------------------- */
+/* -------------------------------------- Font Imports -------------------------------------- */
 
 @import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
 
-/* ----------------------------------------------Navigation bar, coded with help from w3 schools, as well as skills developed from MAD(A) course at University of Glasgow------------------------------------- */
-
+/* -------------------------------------- Navigation Bar -------------------------------------- */
 
 /* General Wrapper Styles */
 .wrapper {
     width: 100%;
-    text-align: center; /* Centers the navigation */
+    text-align: center; /* Center the navigation */
     margin: 0 auto;
     padding: 5px 0;
     text-transform: uppercase;
-  }
-  
-  .wrapper2 {
-    display: flex; /* Use flexbox for easy alignment */
-    justify-content: center; /* Center children horizontally */
-    align-items: center; /* Center children vertically */
-    min-height: 100vh; /* At least the full height of the viewport */
+}
+
+.wrapper2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
     opacity: 1;
     transition: opacity 0.5s ease-out;
     text-align: center;
-
-  }
+}
 
 /* Navigation Styles */
 #topnav {
-  display: inline-block;
-  margin: 0 auto; /* Centers the navigation within the wrapper */
+    display: inline-block;
+    margin: 0 auto;
 }
 
 /* Unordered List Styles for Navigation */
 .nav {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 /* List Item Styles */
 .nav li {
-  display: inline-block; /* Aligns the list items in a row */
-  margin-right: -4px; /* Removes the gap between inline-block elements */
+    display: inline-block;
+    margin-right: -4px;
 }
 
 /* Link Styles */
 .nav a {
-  text-decoration: bold;
-  font-size: 18px;
-  font-family: 'Work Sans' sans-serif;
-  padding: 10px 15px; /* Adds padding to the links for a larger click area */
-  display: block;
-  color: #FFE3E3; /* Sets the text color */
-  background-color: #0C090D; /* Sets the background color */
-  transition: background-color 0.3s; /* Adds a transition effect on hover */
+    text-decoration: bold;
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    padding: 10px 15px;
+    display: block;
+    color: #FFE3E3;
+    background-color: #0C090D;
+    transition: background-color 0.3s;
 }
 
 /* Hover and Active States */
 .nav a:hover,
 .nav li.active a {
-  background-color: #FF858D; 
+    background-color: #FF858D;
 }
 
 /* Last Item Style */
 .nav .last {
-  margin-right: 0; /* Removes margin on the last item */
+    margin-right: 0;
 }
 
 /* Clearfix */
 .clear {
-  clear: both;
+    clear: both;
 }
 
-/* ----------------------------------------------Body formatting------------------------------------- */
+/* -------------------------------------- Body Formatting -------------------------------------- */
 .container {
-  width: 80%; /* Adjust the width as needed */
-  margin: 0 auto; /* Center the container horizontally */
-  padding: 5px 0px; /* Add padding as needed to create space around the content */
+    width: 80%;
+    margin: 0 auto;
+    padding: 5px 0px;
 }
-
 
 /* General Wrapper Styles */
 .body {
-  width: 100%;
-  margin: 0 auto;
-  padding: 100px 20px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 100px 20px;
 }
 
-/* ----------------------------------------------Video formatting------------------------------------- */
- .video-container {
-  margin-bottom: 30px; /* Margin for video */
+/* -------------------------------------- Video Formatting -------------------------------------- */
+.video-container {
+    margin-bottom: 30px;
 }
-
 
 video {
-  display: block; /* Ensure the video is treated as a block element */
+    display: block;
 }
 
-/* ----------------------------------------------Image formatting------------------------------------- */
-
-
+/* -------------------------------------- Image Formatting -------------------------------------- */
 .image-list {
-  list-style-type: none; /* Removes the default list styling */
-  padding: 0; /* Removes the default padding */
-  margin: 0; /* Removes the default margin */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 .image-list li {
-  display: inline-block; /* Displays list items inline */
-  margin-right: 10px; /* Adds some space between the images */
+    display: inline-block;
+    margin-right: 10px;
 }
 
 .image-list img {
-  width: auto; /* Maintains the original aspect ratio */
-  height: 200px; /* Sets a uniform height for all images */
-  vertical-align: middle; /* Aligns images vertically in line */
+    width: auto;
+    height: 200px;
+    vertical-align: middle;
 }
 
 .image-container {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-/* ----------------------------------------------Scroll to top: With help from w3 schools, chatgpt------------------------------------- */
-
+/* -------------------------------------- Scroll to Top -------------------------------------- */
 html {
     scroll-behavior: smooth;
 }
 
-/* Scroll to top button styles */
 .scroll-to-top {
     position: fixed;
     bottom: 20px;
@@ -144,7 +137,6 @@ html {
     transition: opacity 0.5s ease-in-out;
 }
 
-
 .scroll-to-top:hover {
     background-color: #FF858D;
 }
@@ -153,34 +145,27 @@ html {
     opacity: 1;
 }
 
-
-/* ----------------------------------------------Various website styles------------------------------------- */
-
-
+/* -------------------------------------- Various Website Styles -------------------------------------- */
 body {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Nanum Gothic Coding', monospace;
     font-weight: normal;
     color: #FFE3E3;
     font-size: 20px;
 }
 
-/* Set the background colour */
+/* Set the background color */
 body {
     background-color: #0C090D;
 }
 
 p {
-  color: #FFE3E3;
-  font-size: 20px;
-}
-
-body {
- font-family: 'Work Sans', sans-serif;
+    color: #FFE3E3;
+    font-size: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'DotGothic16', sans-serif;  
-  color: #FF858D;
+    font-family: 'DotGothic16', sans-serif;
+    color: #FF858D;
 }
 
 .special-h1 {
@@ -188,68 +173,55 @@ h1, h2, h3, h4, h5, h6 {
     color: #FF858D;
     font-size: 40px;
     text-align: center;
-    padding: 10px; 
-
+    padding: 10px;
 }
 
 .special-h2 {
-  font-family: 'League Spartan', sans-serif;
-  margin-bottom: 80px; 
-  color: #FF858D;
-  
-
+    font-family: 'League Spartan', sans-serif;
+    margin-bottom: 80px;
+    color: #FF858D;
 }
 
 .index-h2 {
-text-align: center;
-font-family: 'Noto Sans', sans-serif;
-color: #FF858D;
-padding: -10px; 
-
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    color: #FF858D;
+    padding: -10px;
 }
 
 .link-h2 {
-  color: #FF858D; /* Remove underlines */
-  font-weight: bold;
-  text-align: center;
-
+    color: #FF858D;
+    font-weight: bold;
+    text-align: center;
 }
 
-/* Increase spacing for <li> bullet points */
 li {
-  margin-left: 20px; /* Adjust the value as needed to control the spacing */
-  list-style: disc outside; /* Add bullet points outside the list item */
-  margin-bottom: 10px; /* Adjust the value as needed to control the spacing */
-  font-size: 20px;
+    margin-left: 20px;
+    list-style: disc outside;
+    margin-bottom: 10px;
+    font-size: 20px;
 }
 
-ul { 
-font-size: 20px;
-
+ul {
+    font-size: 20px;
 }
 
-/* Remove underlines and set the color */
-   a {
-        text-decoration: none; 
-        color: #FF858D; 
-        font-weight: normal;
-      }
+a {
+    text-decoration: none;
+    color: #FF858D;
+    font-weight: normal;
+}
 
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
 
-      table {
-        border-collapse: collapse;
-        width: 100%;
-    }
+table, th, td {
+    border: 1px solid #FFE3E3;
+}
 
-    table, th, td {
-        border: 1px solid #FFE3E3;
-    }
-
-    th, td {
-        padding: 8px;
-        text-align: left;
-    }
-
-
-
-    
+th, td {
+    padding: 8px;
+    text-align: left;
+}
