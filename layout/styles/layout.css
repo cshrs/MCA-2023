@@ -1,47 +1,40 @@
 /* Navigation bar styles */
 .wrapper2 {
-  display: flex;
-  justify-content: space-between; /* Spread the items equally */
-  align-items: center;
   background-color: #333; /* Background color for the navigation bar */
-  padding: 10px 20px; /* Padding for the navigation bar */
+  padding: 10px 0; /* Padding for the navigation bar */
 }
 
 .nav {
   list-style: none;
   padding: 0;
   margin: 0;
-  display: flex;
+  text-align: center; /* Center the navigation items horizontally */
 }
 
 .nav li {
-  margin-right: 10px;
+  display: inline-block;
+  margin-right: 10px; /* Add space between list items */
 }
 
 .nav a {
   text-decoration: none;
   font-size: 16px;
   color: #fff; /* Text color */
-  transition: color 0.3s; /* Transition effect on text color */
+  padding: 10px 15px; /* Padding for the links */
+  border-radius: 5px; /* Rounded corners for a button-like appearance */
+  transition: background-color 0.3s, color 0.3s; /* Transition effect on background color and text color */
 }
 
 .nav a:hover,
 .nav li.active a {
-  color: #D5AC4E; /* Text color on hover or when active */
+  background-color: #D5AC4E; /* Background color on hover or when active */
+  color: #333; /* Text color on hover or when active */
 }
 
 /* Responsive styles */
 @media screen and (max-width: 768px) {
-  .wrapper2 {
-    flex-direction: column; /* Stack items vertically on small screens */
-    align-items: flex-start; /* Align items to the start on small screens */
-  }
-
-  .nav {
-    margin-top: 10px; /* Add space between navigation bar and links */
-  }
-
   .nav li {
+    display: block; /* Stack items vertically on small screens */
     margin-right: 0;
     margin-bottom: 5px; /* Add space between list items on small screens */
   }
