@@ -48,9 +48,9 @@
 /* Link Styles */
 .nav a {
     text-decoration: bold;
-    font-size: 18px;
+    font-size: 30px;
     font-family: 'Work Sans', sans-serif;
-    padding: 0px 15px 0px;
+    padding: 10px 15px 0px;
     display: block;
     color: #FFE3E3;
     background-color: #FF858D;
