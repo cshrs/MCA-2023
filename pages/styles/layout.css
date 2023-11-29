@@ -183,6 +183,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #FF858D;
 }
 
+.special-h3 {
+    text-align: center;
+
+}
+
 .index-h2 {
     text-align: center;
     font-family: 'Nunito Sans', sans-serif;
