@@ -3,7 +3,7 @@
 /* -------------------------------------- Font Imports -------------------------------------- */
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,600&family=Rethink+Sans&display=swap');
 
 /* -------------------------------------- Navigation Bar -------------------------------------- */
 
@@ -51,7 +51,7 @@
 .nav a {
     text-decoration: bold;
     font-size: 20px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     padding: 10px 15px;
     display: block;
     color: #FFE3E3;
@@ -137,7 +137,7 @@ html {
     cursor: pointer;
     display: none;
     transition: background-color 0.3s;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
   }
 
 .scroll-to-top:hover {
@@ -150,7 +150,7 @@ html {
 
 /* -------------------------------------- Various Website Styles -------------------------------------- */
 body {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     font-weight: normal;
     color: #FFE3E3;
     font-size: 20px;
